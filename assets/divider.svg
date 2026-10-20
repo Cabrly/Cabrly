@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="28" viewBox="0 0 1200 28">
+  <defs>
+    <linearGradient id="beam" x1="0" x2="1">
+      <stop offset="0" stop-color="#00f0ff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#00f0ff"/>
+      <stop offset="1" stop-color="#00f0ff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path d="M0 14H470L484 4H716L730 14H1200" stroke="#fcee0a" stroke-width="2" fill="none"/>
+  <path d="M484 4H716L706 22H494Z" fill="#fcee0a"/>
+  <g fill="#0b0614">
+    <rect x="510" y="9" width="10" height="8"/><rect x="526" y="9" width="10" height="8"/>
+    <rect x="542" y="9" width="10" height="8"/><rect x="664" y="9" width="10" height="8"/>
+    <rect x="680" y="9" width="10" height="8"/>
+  </g>
+  <rect x="-200" y="12" width="200" height="4" fill="url(#beam)">
+    <animate attributeName="x" from="-200" to="1200" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="0" y="22" width="6" height="6" fill="#ff2a6d"/><rect x="1194" y="22" width="6" height="6" fill="#ff2a6d"/>
+</svg>
